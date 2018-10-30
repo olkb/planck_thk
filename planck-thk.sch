@@ -31,7 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:planck-tht-cache
+LIBS:planck-thk-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1820,7 +1820,7 @@ U 1 1 5B969FE9
 P 4950 1150
 F 0 "J6" H 5000 1450 50  0000 C CNN
 F 1 "JTAG" H 5000 850 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 4950 1150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 4950 1150 50  0001 C CNN
 F 3 "" H 4950 1150 50  0001 C CNN
 	1    4950 1150
 	1    0    0    -1  
@@ -1876,7 +1876,7 @@ U 1 1 5B96D5B3
 P 4950 1950
 F 0 "J7" H 5000 2150 50  0000 C CNN
 F 1 "ISP" H 5000 1750 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x03_Pitch2.54mm" H 4950 1950 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4950 1950 50  0001 C CNN
 F 3 "" H 4950 1950 50  0001 C CNN
 	1    4950 1950
 	1    0    0    -1  
@@ -2170,10 +2170,10 @@ F 3 "" H 7650 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR035
 U 1 1 5B96F685
 P 7450 2400
-F 0 "#PWR?" H 7450 2150 50  0001 C CNN
+F 0 "#PWR035" H 7450 2150 50  0001 C CNN
 F 1 "GND" V 7450 2200 50  0000 C CNN
 F 2 "" H 7450 2400 50  0001 C CNN
 F 3 "" H 7450 2400 50  0001 C CNN

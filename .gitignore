@@ -9,7 +9,6 @@
 *~
 _autosave-*
 *.tmp
-*-cache.lib
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
@@ -27,3 +26,15 @@ _autosave-*
 
 .dropbox
 desktop.ini
+
+# Gerber files
+*.gbl
+*.gbs
+*.gbo
+*.gm1
+*.gtl
+*.gts
+*.gto
+*.drl
+
+*.zip
